@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a .logo {
+  max-height: 30px;
+}
+
+body .wrap {
+  background: rgb(201, 201, 201);
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tabs {
+  border-bottom: 1px solid white;
+}
+.tab {
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: white;
+  color: black;
+}
+
+.tab:hover {
+  background-color: rgb(180, 180, 180);
+  color: black;
+}
